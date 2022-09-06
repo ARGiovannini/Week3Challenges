@@ -31,12 +31,12 @@ Example Output: [4, 5]
 """
 
 
-def list_value_checker(list, number):
-    new_list = []
-    for num in list:
-        if num > number:
-            new_list.append(num)
-    return(new_list)
+# def list_value_checker(list, number):
+#     new_list = []
+#     for num in list:
+#         if num > number:
+#             new_list.append(num)
+#     return(new_list)
 
 
 # Problem 3
@@ -53,7 +53,17 @@ Example Output: "Mike"
 
 
 def list_value_comparison(list_one, list_two):
-    pass
+    matching_names = []
+    for name in list_one:
+        index = 0
+        while index < len(list_two):
+            if name == list_two[index]:
+                matching_names.append(name)
+            index += 1
+    return matching_names
+
+    
+        
 
 
 # Problem 4
