@@ -32,7 +32,11 @@ Example Output: [4, 5]
 
 
 def list_value_checker(list, number):
-    pass
+    new_list = []
+    for num in list:
+        if num > number:
+            new_list.append(num)
+    return(new_list)
 
 
 # Problem 3
