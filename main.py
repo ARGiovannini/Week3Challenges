@@ -9,7 +9,19 @@ import problems_one
 # result = problems_one.list_value_checker(list_of_numbers, min_number)
 # print(result)
 
-list_of_names = ["Harry", "Larry", "Curly", "Mo"]
-another_list_of_names = ["Sue", "Larry", "Craig", "Mo"]
-result = problems_one.list_value_comparison(list_of_names, another_list_of_names)
-print(f"{result} are in both lists")
+# list_of_names = ["Harry", "Larry", "Curly", "Mo"]
+# another_list_of_names = ["Sue", "Larry", "Craig", "Mo"]
+# result = problems_one.list_value_comparison(list_of_names, another_list_of_names)
+# print(f"{result} are in both lists")
+
+# person = {
+#     "name": "Timmy Thomas",
+#     "age": 5,
+#     "interests": {
+#         "favorite_book": "Where The Sidewalk Ends",
+#         "favorite_movie": "Star Wars",
+#         "favorite_color": "Red"
+#     }
+# }
+# fav_color = problems_one.get_value_of_favorite_color(person)
+# print(f"{person['name']}'s favorite color is {fav_color}")

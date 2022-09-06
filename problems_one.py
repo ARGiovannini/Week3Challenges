@@ -31,12 +31,12 @@ Example Output: [4, 5]
 """
 
 
-# def list_value_checker(list, number):
-#     new_list = []
-#     for num in list:
-#         if num > number:
-#             new_list.append(num)
-#     return(new_list)
+def list_value_checker(list, number):
+    new_list = []
+    for num in list:
+        if num > number:
+            new_list.append(num)
+    return(new_list)
 
 
 # Problem 3
@@ -87,13 +87,13 @@ Expected Output: "Red"
 
 
 def get_value_of_favorite_color(sample_dictionary):
-    pass
+    return sample_dictionary["interests"]["favorite_color"]
 
 # Problem 5
 
 
 """
-Problem 4 - Write a function that takes in the following dictionary and prints out every
+Problem 5 - Write a function that takes in the following dictionary and prints out every
 key and value in a well-formatted print statement
 
 address = {
