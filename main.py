@@ -1,3 +1,4 @@
+from urllib.request import ProxyBasicAuthHandler
 import problems_one
 
 # to_reverse = [1, 2, 3, 4, 5, 6]
@@ -25,3 +26,11 @@ import problems_one
 # }
 # fav_color = problems_one.get_value_of_favorite_color(person)
 # print(f"{person['name']}'s favorite color is {fav_color}")
+
+# address = {
+# 	"street": "123 Sesame Street",
+# 	"city": "Some Town",
+# 	"state": "Some State",
+# 	"zip_code": 12345
+# }
+# problems_one.dictionary_printer(address)

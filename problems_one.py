@@ -114,8 +114,9 @@ Example Output
 """
 
 
-def dictionary_printer(dictionary):
-    pass
+# def dictionary_printer(dictionary):
+#     for key, value in dictionary.items():
+#         print(f"{key} - {value}")
 
 
 # Problem 6
