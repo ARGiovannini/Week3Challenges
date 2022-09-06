@@ -1,4 +1,3 @@
-from urllib.request import ProxyBasicAuthHandler
 import problems_one
 
 # to_reverse = [1, 2, 3, 4, 5, 6]
@@ -34,3 +33,7 @@ import problems_one
 # 	"zip_code": 12345
 # }
 # problems_one.dictionary_printer(address)
+
+list_of_numbers = [1, 2, 4, 1, 5, 2, 1, 5, 6, 7, 8, 3, 8, 9, 10, 10, 12, 1, 11]
+dictionary_of_numbers = problems_one.list_numbers_to_dictionary(list_of_numbers)
+print(dictionary_of_numbers)
