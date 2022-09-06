@@ -9,8 +9,12 @@ Example Output: [5, 4, 3, 2, 1]
 
 
 def reverse_list(list):
-    # NOTE: This is not a completed problem!
-    return list
+    counter = len(list)
+    reversed_list = []
+    while counter > 0:
+        reversed_list.append(list[counter - 1])
+        counter -= 1
+    return reversed_list
 
 
 # Problem 2
