@@ -48,7 +48,17 @@ Write a method that prints out all prime numbers between 1 and 100
 
 
 def print_prime_numbers():
-    pass
+    prime_numbers = [2, 3, 5, 7]
+    for num in range(8, 100):
+        for prime in prime_numbers:
+            if num % prime == 0:
+                break
+            elif num % prime != 0 and prime == prime_numbers[-1]:
+                prime_numbers.append(num)
+            elif num % prime != 0:
+                continue
+    prime_numbers.insert(0, 1)
+    print(prime_numbers)
 
 
 # Problem 3 - Fibonacci

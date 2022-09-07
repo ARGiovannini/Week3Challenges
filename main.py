@@ -62,5 +62,7 @@ import problems_three
 # result = problems_two.tuple_list_dictionary_converter(list_of_tuples)
 # print(result)
 
-number_to_check = input("Give me a positive integer. Lets find out if it is happy: ")
-problems_three.happy_number_checker(number_to_check)
+# number_to_check = input("Give me a positive integer. Lets find out if it is happy: ")
+# problems_three.happy_number_checker(number_to_check)
+
+problems_three.print_prime_numbers()
