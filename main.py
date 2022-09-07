@@ -1,5 +1,6 @@
 import problems_one
 import problems_two
+import problems_three
 
 # to_reverse = [1, 2, 3, 4, 5, 6]
 # result = problems_one.reverse_list(to_reverse)
@@ -57,6 +58,9 @@ import problems_two
 # tuple_return = problems_two.tuple_value_mover(tuple_input)
 # print(tuple_return)
 
-list_of_tuples = [("Barry Benson", 608123456), ("Bob Belcher", 8088675309), ("Marty McFly", 7198883333), ("Stone Cold Steve Austin", 987654321), ("Jackie Daytona", 3512531122)]
-result = problems_two.tuple_list_dictionary_converter(list_of_tuples)
-print(result)
+# list_of_tuples = [("Barry Benson", 608123456), ("Bob Belcher", 8088675309), ("Marty McFly", 7198883333), ("Stone Cold Steve Austin", 987654321), ("Jackie Daytona", 3512531122)]
+# result = problems_two.tuple_list_dictionary_converter(list_of_tuples)
+# print(result)
+
+number_to_check = input("Give me a positive integer. Lets find out if it is happy: ")
+problems_three.happy_number_checker(number_to_check)

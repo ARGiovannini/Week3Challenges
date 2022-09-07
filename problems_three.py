@@ -21,8 +21,22 @@ Example Output: "22 is a Sad Number :("
 """
 
 
-def happy_number_checker():
-    pass
+def happy_number_checker(number_to_check):
+    original_number = number_to_check
+    while number_to_check != "1":
+        new_integer = 0
+        for each in number_to_check:
+            square = int(each) * int(each)
+            new_integer += square
+        number_to_check = str(new_integer)
+        if number_to_check == "1":
+            print(f"{original_number} is a happy number! :)")
+            break
+        elif number_to_check == original_number or "4":
+            print(f"{original_number} is a sad number :(")
+            break
+
+
 
 
 # Problem 2 - Prime Numbers
