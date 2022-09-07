@@ -32,7 +32,9 @@ Example Output: .313
 
 
 def highest_batting_average(batting_tuple):
-    pass
+    batting_list = list(batting_tuple)
+    batting_list.sort()
+    return batting_list[-1]
 
 
 # Problem 3

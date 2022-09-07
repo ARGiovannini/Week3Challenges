@@ -39,6 +39,9 @@ import problems_two
 # dictionary_of_numbers = problems_one.list_numbers_to_dictionary(list_of_numbers)
 # print(dictionary_of_numbers)
 
-tuple_example = (1, 2 , 3, 4)
-output = problems_two.the_tuplizer(tuple_example)
-print(output)
+# tuple_example = (1, 2 , 3, 4)
+# output = problems_two.the_tuplizer(tuple_example)
+# print(output)
+
+batting_averages = (.123, .301, .290, .313, .106)
+problems_two.highest_batting_average(batting_averages)
