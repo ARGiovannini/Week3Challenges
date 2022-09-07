@@ -49,6 +49,10 @@ import problems_two
 # string = input("Give me a word that uses all the vowels: ")
 # problems_two.check_for_vowels(string)
 
-list_to_square = [1, 2, 3, 4, 5, 6, 7]
-tuple_squares = problems_two.make_tuple_squares(list_to_square)
-print(tuple_squares)
+# list_to_square = [1, 2, 3, 4, 5, 6, 7]
+# tuple_squares = problems_two.make_tuple_squares(list_to_square)
+# print(tuple_squares)
+
+tuple_input = (1, 3, 5, 7, 9, 1, 2)
+tuple_return = problems_two.tuple_value_mover(tuple_input)
+print(tuple_return)

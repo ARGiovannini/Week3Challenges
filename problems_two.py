@@ -107,7 +107,13 @@ Example Output: (1, 3, 5, 2, 7, 9, 1)
 
 
 def tuple_value_mover(tuple_to_shift):
-    pass
+    tuple_as_list = list(tuple_to_shift)
+    variable_to_move = tuple_as_list.pop(-1)
+    tuple_as_list.insert(int(len(tuple_as_list)/2), variable_to_move)
+    shifted_tuple = tuple(tuple_as_list)
+    return shifted_tuple
+    
+
 
 
 # Problem 6
