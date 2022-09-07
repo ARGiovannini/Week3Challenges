@@ -135,14 +135,19 @@ Example Output: {"1": 2, "2": 3, "3": 1}
 """
 
 
+# def list_numbers_to_dictionary(list_of_numbers):
+#     dictionary_of_numbers = {}
+#     for num in list_of_numbers:
+#         count = 0
+#         index = 0
+#         while index < len(list_of_numbers):
+#             if num == list_of_numbers[index]:
+#                 count += 1
+#             index += 1
+#         dictionary_of_numbers[num] = count
+#     return dictionary_of_numbers
+
 def list_numbers_to_dictionary(list_of_numbers):
-    dictionary_of_numbers = {}
     for num in list_of_numbers:
-        count = 0
-        index = 0
-        while index < len(list_of_numbers):
-            if num == list_of_numbers[index]:
-                count += 1
-            index += 1
-        dictionary_of_numbers[num] = count
-    return dictionary_of_numbers
+        dictionary_of_numbers = {num:list_of_numbers.count(num)}
+    
