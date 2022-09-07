@@ -130,4 +130,7 @@ Example Output: {'Barry Benson': 608123456, 'Bob Belcher': 8088675309, 'Marty Mc
 
 
 def tuple_list_dictionary_converter(list_of_tuples):
-    pass
+    new_dictionary = {}
+    for tuple in list_of_tuples:
+        new_dictionary[tuple[0]] = tuple[1]
+    return new_dictionary

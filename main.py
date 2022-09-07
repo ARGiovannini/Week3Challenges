@@ -53,6 +53,10 @@ import problems_two
 # tuple_squares = problems_two.make_tuple_squares(list_to_square)
 # print(tuple_squares)
 
-tuple_input = (1, 3, 5, 7, 9, 1, 2)
-tuple_return = problems_two.tuple_value_mover(tuple_input)
-print(tuple_return)
+# tuple_input = (1, 3, 5, 7, 9, 1, 2)
+# tuple_return = problems_two.tuple_value_mover(tuple_input)
+# print(tuple_return)
+
+list_of_tuples = [("Barry Benson", 608123456), ("Bob Belcher", 8088675309), ("Marty McFly", 7198883333), ("Stone Cold Steve Austin", 987654321), ("Jackie Daytona", 3512531122)]
+result = problems_two.tuple_list_dictionary_converter(list_of_tuples)
+print(result)
