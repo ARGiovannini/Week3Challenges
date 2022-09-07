@@ -86,7 +86,12 @@ Example Output: [(5,25),(10,100)]
 
 
 def make_tuple_squares(list_of_numbers):
-    pass
+    list_of_tuples = []
+    for num in list_of_numbers:
+        value = num * num
+        tuple = (num, value)
+        list_of_tuples.append(tuple)
+    return list_of_tuples
 
 # Problem 5
 
