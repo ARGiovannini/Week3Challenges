@@ -72,5 +72,12 @@ HARDER VERSION: Write a method that does the Fibonacci sequence starting at a nu
 """
 
 
-def fibonacci():
-    pass
+def fibonacci(sequence_start, length_of_sequence):
+    third_number = sequence_start + sequence_start
+    fibonacci_list = [sequence_start, sequence_start, third_number]
+    while len(fibonacci_list) < length_of_sequence:
+        next_number = fibonacci_list[-1] + fibonacci_list[-2]
+        fibonacci_list.append(next_number)
+    print(fibonacci_list)
+        
+    

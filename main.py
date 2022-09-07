@@ -65,4 +65,8 @@ import problems_three
 # number_to_check = input("Give me a positive integer. Lets find out if it is happy: ")
 # problems_three.happy_number_checker(number_to_check)
 
-problems_three.print_prime_numbers()
+# problems_three.print_prime_numbers()
+
+fibonacci_start = int(input("Input a number to make a fibonacci sequence with: "))
+length_of_sequence = int(input("How long would you like your sequence to be? "))
+problems_three.fibonacci(fibonacci_start, length_of_sequence)
