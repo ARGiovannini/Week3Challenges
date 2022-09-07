@@ -43,5 +43,8 @@ import problems_two
 # output = problems_two.the_tuplizer(tuple_example)
 # print(output)
 
-batting_averages = (.123, .301, .290, .313, .106)
-problems_two.highest_batting_average(batting_averages)
+# batting_averages = (.123, .301, .290, .313, .106)
+# problems_two.highest_batting_average(batting_averages)
+
+string = input("Give me a word that uses all the vowels: ")
+problems_two.check_for_vowels(string)

@@ -55,7 +55,16 @@ Example Output: "Wrong! Try another string!"
 
 
 def check_for_vowels(input_string):
-    pass
+    input_string = input_string.lower()
+    set_of_vowels = {"a", "e", "i", "o", "u"}
+    count = 0
+    for vowel in set_of_vowels:
+        if vowel in input_string:
+            count += 1
+    if count == 5:
+            print("Congratulations, you passed the Vowel Test")
+    else:
+        print("Wrong! Try another string!")
 
 
 # Problem 4
