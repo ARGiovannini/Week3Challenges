@@ -13,8 +13,11 @@ Example Output: ((1,2)(3,4))
 
 
 def the_tuplizer(initial_tuple):
-    pass
-
+    var_1, var_2, var_3, var_4 = initial_tuple
+    new_tuple_1 = (var_1, var_2)
+    new_tuple_2 = (var_3, var_4)
+    final_tuple = (new_tuple_1, new_tuple_2)
+    return final_tuple
 
 # Problem 2
 
